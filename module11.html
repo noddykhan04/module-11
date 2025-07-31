@@ -4,8 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        /* Descendant selector: remove bullets and underline */
+nav ul li a {
+  text-decoration: none;
+}
+nav ul {
+  list-style-type: none;
+}
+
+/* Child selector: display inline */
+nav > ul > li {
+  display: inline;
+}
+
+/* Adjacent sibling selector: add margin */
+nav ul li + li {
+  margin-left: 15px;
+}
+
+    </style>
 </head>
 <body>
-    
+    <nav>
+  <ul>
+    <li><a href="#">Menu1</a></li>
+    <li><a href="#">Menu2</a></li>
+    <li><a href="#">Menu3</a></li>
+  </ul>
+</nav>
 </body>
 </html>
