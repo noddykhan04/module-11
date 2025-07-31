@@ -4,34 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        /* Descendant selector: remove bullets and underline */
-nav ul li a {
-  text-decoration: none;
-}
-nav ul {
-  list-style-type: none;
-}
-
-/* Child selector: display inline */
-nav > ul > li {
-  display: inline;
-}
-
-/* Adjacent sibling selector: add margin */
-nav ul li + li {
-  margin-left: 15px;
-}
-
-    </style>
+    <link rel="stylesheet" href="module11.css">
+    
 </head>
 <body>
-    <nav>
-  <ul>
-    <li><a href="#">Menu1</a></li>
-    <li><a href="#">Menu2</a></li>
-    <li><a href="#">Menu3</a></li>
-  </ul>
-</nav>
+    <header>
+      <nav>
+        <h2>TOI</h2>
+        <div>
+          <h2>Menu</h2>
+          <ul>
+            <li><a href="#" target="_blank">Home</a></li>
+            <li><a href="#" class="active" target="_self">About</a></li>
+            <li><a href="#" target="_blank">Services</a></li>
+            <li><a href="#" target="_blank">Contact</a></li>
+          </ul>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores possimus repellat laboriosam nesciunt fuga quo omnis iusto harum qui rem assumenda sequi illum deleniti modi molestias hic, optio eaque nam.</p>
+        <p>read article </p>
+      </nav>
+    </header>
 </body>
 </html>

@@ -1,0 +1,43 @@
+/* solution of qno 1 part b */
+nav a {
+    color: red;
+}
+nav > h2:first-of-type {
+  color: white;
+  background-color: green;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+nav > p:first-of-type {
+  color: red;
+}
+/* solution of qno 1 part c */
+a {
+  color: blue;                    
+  text-decoration: none;           
+}
+.active {
+  color: orange;                  
+  text-decoration: underline;     
+  font-weight: bold;
+}
+a[target="_self"] {
+  background-color: cyan;        
+  padding: 3px 6px;
+  border-radius: 3px;
+}
+nav > p:last-of-type::after {
+  content: "...";
+  color: gray;
+  font-weight: bold;
+  margin-left: 4px;
+}
+nav ul li::marker {
+  color: orange;
+  font-size: 1.2em;
+}
+nav > p:nth-of-type(2)::first-letter {
+  color: red;
+  font-size: 24px;
+  font-weight: bold;
+}
