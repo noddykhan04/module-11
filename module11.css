@@ -1,5 +1,5 @@
 /* solution of qno 1 part b */
-nav a {
+#q1nav a {
     color: red;
 }
 nav > h2:first-of-type {
@@ -8,11 +8,11 @@ nav > h2:first-of-type {
   padding: 5px 10px;
   border-radius: 4px;
 }
-nav > p:first-of-type {
+#q1nav > p:first-of-type {
   color: red;
 }
 /* solution of qno 1 part c */
-a {
+ a {
   color: blue;                    
   text-decoration: none;           
 }
@@ -40,4 +40,48 @@ nav > p:nth-of-type(2)::first-letter {
   color: red;
   font-size: 24px;
   font-weight: bold;
+}
+
+#Q2{
+    list-style-type: none;
+    display: inline-flex;
+    text-decoration: none;
+    padding: 6px 12px;
+}
+
+#q2nav  > ul > li a:hover{
+  display: inline;
+  color: #0077cc;
+  text-decoration: underline;
+}
+#q2nav >  ul > li + li {
+  margin-left: 15px;
+}
+
+#q3::before{
+content: " START ";
+}
+
+#q3::after{
+  content: " END";
+}
+
+.q4{
+    padding: 12px 32px;
+    background-color: #008CBA;
+    border: none;
+    color: #fff;
+    font-size: 1.1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    outline: none;
+}
+.q4:hover { 
+    background-color: #005f73;
+    color: #fff;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+    transform: translateY(-2px) scale(1.04);
+    cursor: pointer;
 }
